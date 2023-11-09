@@ -27,6 +27,7 @@ def clear_canvas(canvas, bars):
 screen = tk.Tk()
 screen.title("Rearrangement Algorithm")
 screen.config(bg="#e69cb1")
+screen.resizable(False, False)
 
 canvas_width = 500
 canvas_height = 200
